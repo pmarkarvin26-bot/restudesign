@@ -56,7 +56,7 @@ body {
 
 /* ================= HERO SECTION ================= */
 .hero {
-    background: url("/figma1/n/makoy\'s\ resto.png") center/cover no-repeat;
+    background: url("resto.png") center/cover no-repeat;
     color: #fff;
     height: 100vh;
     display: flex;

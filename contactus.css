@@ -68,7 +68,7 @@ body {
 
 /* ===== Contact Section ===== */
 .contact-section {
-  background: url('/figma1/n/makoy\'s\ resto.png') no-repeat center center/cover;
+  background: url('resto.png') no-repeat center center/cover;
   position: relative;
   padding: 100px 0;
 }

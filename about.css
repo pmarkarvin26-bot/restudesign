@@ -9,7 +9,7 @@ body {
 /* ======= SECTION BACKGROUND ======= */
 .why-choose {
   position: relative;
-  background: url('/figma1/n/food.png') center/cover no-repeat;
+  background: url('food.png') center/cover no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
