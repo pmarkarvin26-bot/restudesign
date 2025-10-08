@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Makoy’s Restaurant – Fine dining experience offering the best cuisine with fresh ingredients and elegant atmosphere." />
+    <title>Makoy’s Restaurant</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ================= HEADER / HERO SECTION ================= -->
+                <nav class="navbar" aria-label="Main navigation">
+                    <div class="logo">Makoy’s Restaurant</div>
+                     <ul class="nav-links">
+                        <li><a href="../html/index.html">Home</a></li>
+                        <li><a href="../html/menu.html">Menu</a></li>
+                        <li><a href="../html/about.html">About</a></li>
+                        <li><a href="../html/reservation.html">Reservations</a></li>
+                        <li><a href="../html/contactus.html">Contact</a></li>
+                    </ul>
+                </nav>
+    <header class="hero">
+        <div class="hero-content" id="home">
+            <h1>Welcome to Makoy’s Restaurant</h1>
+            <p>Experience the art of fine dining and flavors beyond imagination.</p>
+            <a href="../html/menu.html" class="btn">Explore Menu</a>
+        </div>
+    </header>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <p>&copy; 2025 Makoy’s Restaurant. All Rights Reserved.</p>
+        <div class="social-icons">
+            <!-- put social media icons here -->
+            <a href="#" aria-label="Facebook"></a>
+            <a href="#" aria-label="Instagram"></a>
+            <a href="#" aria-label="Twitter"></a>
+        </div>
+    </footer>
+    
+
+    <!-- Smooth Scroll JS -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
