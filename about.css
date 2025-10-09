@@ -171,18 +171,23 @@ h2 {
   }
 }
 
-/* ======= RESPONSIVE ======= */
-@media (max-width: 768px) {
-  .why-choose {
-    height: auto;
-    padding: 4rem 1rem;
+/* ========== RESPONSIVE ========== */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
   }
 
-  h2 {
-    font-size: 1.8rem;
+  .form-card {
+    padding: 1.5rem;
   }
 
-  .feature-card {
-    width: 100%;
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
